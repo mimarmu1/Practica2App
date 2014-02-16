@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Practica2App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_intents">IntentsActivity</string>
+    <string name="title_activity_parameters">ParametersActivity</string>
+    <string name="title_activity_credits">CreditsActivity</string>
+    <string name="buttonIntentsString">Intents</string>
+    <string name="buttonParameterString">Parameter</string>
+    <string name="buttonCreditsString">Credits</string>
+    <string name="creditString">This is a cat with a banjo!</string>
+    <string name="stringParameter">String received through an Intent</string>
+
+
+
+</resources>
