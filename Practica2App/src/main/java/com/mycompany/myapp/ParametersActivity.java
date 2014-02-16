@@ -24,6 +24,8 @@ public class ParametersActivity extends Activity {
       /*  TextView texto = (TextView) findViewById(R.id.textView);
         Bundle parametroRecibido = getIntent().getExtras();
         texto.setText(parametroRecibido.getString("stringParameter"));*/
+
+        //CAMBIO PARA PROBAR GITHUB
 try{
         TextView texto = (TextView) findViewById(R.id.textView);
         Intent intentRecibido = getIntent();
