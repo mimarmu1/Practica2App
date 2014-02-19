@@ -59,15 +59,15 @@ public class MainActivity extends Activity {
         //String stringParameter = getResources().getString(R.string.stringParameter);
        // String stringParameter;
         int id = v.getId();
-       if(id == R.id.buttonIntents) {
-          Intent i = new Intent(this, IntentsActivity.class);
+       if(id == R.id.buttonParameter) {
+          Intent i = new Intent(this, ParametersActivity.class);
           //i.putExtra(stringParameter,  getResources().getString(R.string.stringParameter));
           i.putExtra("stringParameter",  getResources().getString(R.string.stringParameter));
           startActivity(i);
 
 
-       }else if(id == R.id.buttonParameter){
-           Intent i = new Intent(this, ParametersActivity.class);
+       }else if(id == R.id.buttonIntents){
+           Intent i = new Intent(this, IntentsActivity.class);
            startActivity(i);
 
        }else if(id == R.id.buttonCredits){
